@@ -1,0 +1,37 @@
+body {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.barra-sup {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-left: 1px solid #c9c9c9;
+    border-top: 1px solid #c9c9c9;
+    border-right: 1px solid #c9c9c9;
+    width: 95.6%;
+    margin-left: 2%;
+}
+
+.logo-sup {
+    margin-top: 6%;
+    width: 176px;
+}
+
+.botao-entrar {
+    color: #f11075;
+    border: none;
+    background-color: #ffffff;
+    font-size: 1.03rem;
+    font-weight: bold;
+}
+
+.container {
+    height: 100%;
+    background-image: url(https://dals0gb6i1pll.cloudfront.net/img/banner-mobile-buser.e1bda3c.png);
+    background-repeat: no-repeat;
+    background-size: 181%;
+    background-position: bottom;
+    margin: 0% 2%;
+}
