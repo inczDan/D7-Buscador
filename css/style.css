@@ -1,6 +1,7 @@
-*{
+* {
     font-family: 'Roboto', sans-serif;
 }
+
 body {
     width: 100%;
     background-color: #ffffff;
@@ -33,8 +34,14 @@ body {
     font-weight: bold;
 }
 
+/* !final da barra superior
+inicio do titulo-texto! */
+
 .container {
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     height: 100%;
     background-image: url(https://dals0gb6i1pll.cloudfront.net/img/banner-mobile-buser.e1bda3c.png);
     background-repeat: no-repeat;
@@ -42,22 +49,53 @@ body {
     background-position: bottom;
     margin: 0% 2%;
 }
+
 .caixa-titulo {
     display: flex;
     flex-direction: column;
 }
-.titulo{
+
+.titulo {
     text-transform: uppercase;
     color: #ffffff;
     margin-top: 5%;
     margin-right: 16%;
-    margin-left: 7%;
+    margin-left: 6%;
+    margin-bottom: 4%;
     font-size: 1.77rem;
-    
 }
-.sub-titulo{
-    color:#ffffff;
-    margin-left: 7%;
-    font-size: 1.17rem;
+
+.sub-titulo {
+    color: #ffffff;
+    margin-bottom:0%;
+    margin-left: 6%;
+    margin-top: 0%;
+    font-size: 1.21rem;
     font-weight: 400
+}
+
+/* !final do titulo-texto
+inicio da caixa de busca de viagens! */
+
+.caixa-busca {
+    background-color: #ffffff;
+    height: 49%;
+    width: 89%;
+    margin-bottom: 32%;
+    border-radius: 7px;
+}
+
+
+
+
+/* !final da caixa de busca de viagens
+inicio do navbar! */
+
+.navbar{
+    background-color: #ffffff;
+    height: 6%;
+    width: 99.6%;
+    border-bottom: 1px solid #c9c9c961;
+    border-left: 1px solid #c9c9c961;
+    border-right: 1px solid #c9c9c961;
 }
