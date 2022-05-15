@@ -1,3 +1,6 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
 body {
     width: 100%;
     background-color: #ffffff;
@@ -7,16 +10,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-left: 1px solid #c9c9c9;
-    border-top: 1px solid #c9c9c9;
-    border-right: 1px solid #c9c9c9;
+    border-left: 1px solid #c9c9c961;
+    border-top: 1px solid #c9c9c961;
+    border-right: 1px solid #c9c9c961;
     width: 95.6%;
     margin-left: 2%;
 }
 
 .logo-sup {
-    margin-top: 6%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    margin-right: 3%;
     width: 176px;
+    padding-right: 50px;
 }
 
 .botao-entrar {
@@ -28,10 +34,30 @@ body {
 }
 
 .container {
+    display: flex;
     height: 100%;
     background-image: url(https://dals0gb6i1pll.cloudfront.net/img/banner-mobile-buser.e1bda3c.png);
     background-repeat: no-repeat;
-    background-size: 181%;
+    background-size: 180.5%;
     background-position: bottom;
     margin: 0% 2%;
+}
+.caixa-titulo {
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 5%;
+    margin-right: 16%;
+    margin-left: 7%;
+    font-size: 1.77rem;
+    
+}
+.sub-titulo{
+    color:#ffffff;
+    margin-left: 7%;
+    font-size: 1.17rem;
+    font-weight: 400
 }
