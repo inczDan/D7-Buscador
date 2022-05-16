@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css"/>
-    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
     </style>
-        
+
     <title>Viagens de ônibus com mais conforto pelo menor preço | Buser</title>
 </head>
+
 <body>
     <div class="barra-sup">
-        <a href="#home"><img class="logo-sup"src="./buser-logo-superior.svg"/></a>
+        <a href="#home"><img class="logo-sup" src="./buser-logo-superior.svg" /></a>
         <a href="#login"><button class="botao-entrar">Entrar</button></a>
     </div>
     <div class="container">
@@ -22,31 +24,68 @@
             <h1 class="titulo">Viagens de ônibus mais baratas que a passagem da rodoviária</h1>
             <h2 class="sub-titulo">Sem taxas, com segurança e preço justo</h2>
         </div>
-    <div class="caixa-busca">
-        <div class="origem-busca">
-            <form class="form-busca">
-                <label class="texto-saida" for="ida">Saindo de</label>
-                    <input  class="formulario" type="text" id="ida" name="name"/>
-                
+        <div class="caixa-busca">
+            <div class="origem-busca">
+                <form class="form-busca">
+                    <label class="texto-saida" for="ida">Saindo de</label>
+                    <div class="div-saida">
+                        <img class="circulo" src="./css/circle.svg" alt="circulo">
+                        <select class="formulario" id="saida">
+                            <option>São José dos Campos - SP</option>
+                            <option> São Paulo - SP</option>
+                        </select>
+                    </div>
 
-                <label class="texto-saida">Indo para</label>
-                <input class="formulario" type="text" id="destino">
+                    <label class="texto-saida" for="destino">Indo para</label>
+                    <div class="div-saida">
+                        <img class="local"src="./css/local.svg" alt="local">
+                        <select class="formulario" id="destino">
+                            <option> São Paulo - SP</option>
+                            <option>São José dos Campos - SP</option>
+                        </select>
+                    </div>
 
-                <label class="data-viagem">Data de ida</label>
-                <input class="formulario" type="date" id="data-ida">
-                
-                <label class="data-viagem">Data de volta</label>
-                <input class="formulario" type="date" id="data-volta">
+                    <label class="data-viagem">Data de ida</label>
+                    <div class="div-saida">
+                        <img  class="calendario-ida" src="./calendar.svg">
+                        <input class="formulario" type="text" placeholder="Ida" id="data-ida" >
+                    </div>
 
-                <button class="botao-buscar">Buscar</button>
+                    <label class="data-viagem">Data de volta</label>
+                    <div class="div-saida">
+                        <img class="calendario-volta" src="./calendar.svg">
+                        <input class="formulario" type="text" placeholder="Volta" id="data-volta">
+                    </div>
 
-            </form>
+                    <button class="botao-buscar">Buscar</button>
+
+                </form>
+
+            </div>
         </div>
-    </div>
-    
-    <div class="navbar">
 
-    </div>
+        <div class="navbar">
+            <div>
+                <a><img src="./barra-inferior/find.svg" width="20px">
+                    Buscar</a>
+            </div>
+            <div>
+                <a><img src="./barra-inferior/bus.svg" width="23px">
+                    Viagens</a>
+            </div>
+            <div>
+                <a><img src="./barra-inferior/wallet.svg" width="20px">
+                    Carteira</a>
+            </div>
+            <div>
+                <a><img src="./barra-inferior/badge.svg" width="20px">
+                    Promoções</a>
+            </div>
+            <div>
+                <a><img src="./barra-inferior/help.svg" width="20px">
+                    Ajuda</a>
+            </div>
+        </div>
 
 
 
@@ -59,4 +98,5 @@
 
 
 </body>
+
 </html>
