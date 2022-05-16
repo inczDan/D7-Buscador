@@ -37,7 +37,7 @@ body {
 /* !final da barra superior
 inicio do titulo-texto! */
 
- .container {
+.container {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -45,7 +45,7 @@ inicio do titulo-texto! */
     height: 100%;
     background-image: url(https://dals0gb6i1pll.cloudfront.net/img/banner-mobile-buser.e1bda3c.png);
     background-repeat: no-repeat;
-    background-size: 180.5%;
+    background-size: 178.5%;
     background-position: bottom;
     margin: 0% 2%;
 }
@@ -67,7 +67,7 @@ inicio do titulo-texto! */
 
 .sub-titulo {
     color: #ffffff;
-    margin-bottom:0%;
+    margin-bottom: 0%;
     margin-left: 6%;
     margin-top: 0%;
     font-size: 1.21rem;
@@ -85,13 +85,10 @@ inicio da caixa de busca de viagens! */
     border-radius: 7px;
 }
 
-
-
-
 /* !final da caixa de busca de viagens
 inicio do navbar! */
 
-.origem-busca{
+.origem-busca {
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -100,32 +97,41 @@ inicio do navbar! */
     width: 100%;
     border-radius: 10px;
 }
-.form-busca{
+
+.form-busca {
     display: flex;
     height: 90%;
     margin: 0% 5%;
     flex-direction: column;
     justify-content: space-between;
 }
-.texto-saida{
-    font-size:0.88rem ;
+
+.texto-saida {
+    font-size: 0.88rem;
     font-weight: 600;
-    color:#4c4a4a
+    color: #4c4a4a
 }
-.div-saida{
+
+.div-saida {
     display: flex;
     border: 1px solid #c1c1c1;
     height: 11%;
     border-radius: 7px;
 }
-#data-volta, #data-ida{
+
+#data-volta, #data-ida {
     height: 90%;
     align-self: center;
     width: 76%;
 }
-.formulario{
+
+select {
+    -webkit-appearance: none;
+}
+
+.formulario {
     padding-left: 12px;
-    font-size: 1.0rem;
+    font-size: 0.9rem;
     background: none;
     border: 0 none;
     outline: 0;
@@ -133,8 +139,9 @@ inicio do navbar! */
     height: 106%;
     padding-bottom: 0px;
 }
-.botao-buscar{
-    color:#ffffff;
+
+.botao-buscar {
+    color: #ffffff;
     background-color: #f11075;
     border: none;
     border-radius: 5px;
@@ -142,43 +149,46 @@ inicio do navbar! */
     padding: 13px;
 }
 
-.data-viagem{
-    font-size:0.88rem ;
+.data-viagem {
+    font-size: 0.88rem;
     font-weight: 600;
-    color:#4c4a4a
-
+    color: #4c4a4a
 }
-.icone-data-ida{
+
+.icone-data-ida {
     display: inline-block;
     margin-top: 10px;
     margin-left: 10px;
 }
+
 /* !area de icones da caixa de busca abaixo! */
-.circulo{
+
+.circulo {
     width: 13px;
     margin-left: 3%;
 }
-.local{
-    width:13px;
+
+.local {
+    width: 13px;
     margin-left: 3%;
-    /* margin-top: 3.4%; */
 }
-.calendario-ida{
+
+.calendario-ida {
     width: 15px;
     margin-left: 3%;
     margin-right: 3%;
 }
-.calendario-volta{
+
+.calendario-volta {
     width: 15px;
-    margin-left:3%;
+    margin-left: 3%;
     margin-right: 3%;
 }
+
 /* !fim area de icones acima! */
 
-
-.navbar{
+.navbar {
     display: flex;
-    flex-wrap: nowrap;
     align-content: space-between;
     justify-content: space-between;
     align-items: center;
@@ -190,10 +200,23 @@ inicio do navbar! */
     border-left: 1px solid #c9c9c961;
     border-right: 1px solid #c9c9c961;
 }
-.div-nav{
-    margin-top:6%;
-}
-.texto-nav{
-    font-size: 1rem;
+
+.div-nav {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
+.texto-nav {
+    font-size: 0.80rem;
+    /* padding: 0px 5px; */
+}
+
+.icones-nav {
+    width: 34%;
+}
+
+#icone-ajuda {
+    width: 40%;
+}
