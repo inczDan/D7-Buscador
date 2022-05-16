@@ -105,7 +105,7 @@ inicio do navbar! */
     height: 90%;
     margin: 0% 5%;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .texto-saida{
     font-size:0.88rem ;
@@ -135,7 +135,7 @@ inicio do navbar! */
     border: none;
     border-radius: 5px;
     font-size: 1rem;
-    padding: 10px;
+    padding: 13px;
 }
 
 .data-viagem{
@@ -166,11 +166,23 @@ inicio do navbar! */
 
 
 .navbar{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
     background-color: #ffffff;
-    height: 6%;
+    height: 5.9%;
     width: 99.6%;
     border-bottom: 1px solid #c9c9c961;
     border-left: 1px solid #c9c9c961;
     border-right: 1px solid #c9c9c961;
+}
+.div-nav{
+    margin-top:6%;
+}
+.texto-nav{
+    font-size: 1rem;
 }
 
