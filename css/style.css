@@ -113,15 +113,19 @@ inicio do navbar! */
     color:#4c4a4a
 }
 .div-saida{
-    border:1px solid #c1c1c1;
+    display: flex;
+    border: 1px solid #c1c1c1;
     height: 11%;
     border-radius: 7px;
 }
 #data-volta, #data-ida{
-    height: 98%;
-    width: 80%;
+    height: 90%;
+    align-self: center;
+    width: 76%;
 }
 .formulario{
+    padding-left: 12px;
+    font-size: 1.0rem;
     background: none;
     border: 0 none;
     outline: 0;
@@ -144,23 +148,30 @@ inicio do navbar! */
     color:#4c4a4a
 
 }
+.icone-data-ida{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
 /* !area de icones da caixa de busca abaixo! */
 .circulo{
     width: 13px;
     margin-left: 3%;
 }
 .local{
-    width:15px;
+    width:13px;
     margin-left: 3%;
     /* margin-top: 3.4%; */
 }
 .calendario-ida{
-    width: 18px;
+    width: 15px;
     margin-left: 3%;
+    margin-right: 3%;
 }
 .calendario-volta{
-    width: 18px;
+    width: 15px;
     margin-left:3%;
+    margin-right: 3%;
 }
 /* !fim area de icones acima! */
 
