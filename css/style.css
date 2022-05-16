@@ -99,3 +99,36 @@ inicio do navbar! */
     border-left: 1px solid #c9c9c961;
     border-right: 1px solid #c9c9c961;
 }
+.origem-busca{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.form-busca{
+    display: flex;
+    height: 90%;
+    margin: 0% 5%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.texto-saida{
+    font-size:0.88rem ;
+    font-weight: 700;
+}
+.formulario{
+    border:1px solid #c9c9c9;
+    border-radius: 5px;
+    height: 10%;
+}
+.botao-buscar{
+    color:#ffffff;
+    background-color: #f11075;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px;
+}
